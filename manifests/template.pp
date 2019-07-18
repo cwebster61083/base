@@ -12,6 +12,6 @@ class base::template (
       owner   => 'root',
       group   => 'root',
       mode    => '0644',
-      content => epp('test.epp',{'temp_text'=>"${text}"}),
+      content => epp('templates/test.epp',{'temp_text'=>"${text}"}),
     }
 }
