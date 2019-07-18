@@ -1,4 +1,3 @@
-<%- | 
-| -%>
+<%- | String $temp_text = 'default text' | -%>
 
-bindDNpassword = passwrod
+<%= $temp_text %>
