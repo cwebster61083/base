@@ -4,12 +4,14 @@
 #
 # @example
 #   include base::template
-class base::template {
+class base::template (
+  $text = 'some text'
+){
   file { '/tmp/test_file.txt':
       ensure  => 'file',
       owner   => 'root',
       group   => 'root',
       mode    => '0644',
-      content => 'this is a file.',
+      content => $text,
     }
 }
