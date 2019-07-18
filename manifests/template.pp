@@ -10,6 +10,6 @@ class base::template {
       owner   => 'root',
       group   => 'root',
       mode    => '0644',
-      content => epp('test.epp'),
+      content => 'this is a file.',
     }
 }
