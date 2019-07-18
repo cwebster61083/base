@@ -1,0 +1,4 @@
+<%- | Sensitive[String] $bindDNpassword 
+| -%>
+
+bindDNpassword = <%= $bindDNpassword %> 
