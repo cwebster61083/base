@@ -5,7 +5,7 @@
 # @example
 #   include base::template
 class base::template (
-  $text = 'some text'
+  Sensitive[String]$text = 'some text'
 ){
   file { '/tmp/test_file.txt':
       ensure  => 'file',
